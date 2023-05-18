@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    color: #000;
+}
+.image img{
+    width: 40%;
+    height: 1000px;
+    float: left;
+}
+.signin{
+    text-align: center;
+    float: right;
+    width: 60%;
+    justify-content: center;
+}
+.logo img{
+    margin-top: 50px;
+    width: 125px;
+}
+.logo p{
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input{
+    padding: 20px;
+    width: 484px;
+    height: 63px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.forgot{
+    width: 484px;
+    display: inline-block;
+}
+.forgot h3{
+    float: left;
+    margin-top: 40px;
+    font-weight: lighter;
+}
+.forgot a{
+    float: right;
+}
+button{
+    width: 484px;
+    height: 63px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.not{
+    width: 240px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.not h3{
+    float: left;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #787878;
+}
+.not h4{
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.back{
+    width: 240px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.back h3{
+    float: left;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #787878;
+}
+.back h4{
+    
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}

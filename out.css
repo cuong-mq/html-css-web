@@ -1,0 +1,683 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+
+}
+a{
+    color: #000;
+}
+.top-header{
+    width: 100vw;
+    height: 38px;
+    background-color: #F3F3F3;
+    padding: 0 38px;
+    position: relative;
+}
+.text-top{
+    float: right;
+    margin-right: 10px;
+    border-right:2px solid black ;
+    height: 16px;
+    padding-right: 8px;
+    
+   
+    display: flex;
+    margin-top: 10px;
+}
+ .logoac{
+    height: 100%;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.text-top1 .ac{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.text-top .lon h3{
+    border-radius: none;
+}
+.text-top1 .ac i{
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.text-top1 a i{
+    position: relative;
+    display: block;
+}
+.text-top1{
+    float: right;
+    margin-right: 10px;
+    justify-content: space-between;
+    height: 16px;
+    padding-right: 8px;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+.text-top1 .out{
+    
+    background-color: white;
+    z-index: 0;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    height: 300px;
+    border-bottom-left-radius: 15px;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: -10px;
+}
+.text-top1:hover .out{
+    visibility: visible;
+    display: block;
+    opacity: 1;
+}
+.text-top1:hover .out ul li:hover a{
+    color: black;
+    display: block;
+}
+.out ul li{
+    margin-top: 15px;
+    font-weight: bold;
+}
+.out ul li a{
+    color: #7D7D7D;
+}
+li.firt a{
+    color: black;
+    font-size: 15px;
+    color: #000;
+}
+.text-top h3{
+    font-weight: 700;
+    font-size: 15px;
+   
+}
+.text-top1 h3{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.text-top1 i{
+    display: block;
+    position: relative;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    padding: 0 40px;
+    font-size: 18px;
+}
+header img{
+    width: 42px;
+    padding-top: 5px;
+    margin-left: 3%;
+    float: left;
+}
+.menu{
+    margin-left: 100px;
+}
+ nav ul li{
+    float: left;
+    line-height: 70px;
+    padding: 0 35px;
+}
+ .menu ul li a{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1em; 
+    display: block;
+    
+}
+.search input{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    padding: 10px 10px;
+    border-style: none;
+    outline: 0;
+    background: transparent;
+    width: 150px;
+}
+.rightheader{
+    display: flex;
+    
+    align-items: center;
+}
+.heart i{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.bag i{
+    font-size: 25px;
+}
+.search{
+    flex-direction: row;
+    padding: 3px 30px;
+    border-radius: 25px;
+    background-color: #F3F3F3;
+}
+.search .fas{
+    font-size: 20px;
+}
+
+.sale{
+    width: 100vw;
+    height: 80px;
+    background-color: lightgray;
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+.sale h1{
+    text-align: center;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+.sale{
+    text-align: center;
+}
+.sale p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 10px;
+    
+    display: inline-block;
+}
+#dt{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 10px;
+    margin-left: 0px;
+    font-weight:600;
+}
+.anh1{
+    width: 60%;
+    float: left;
+}
+.anh-1{
+    width: 100%;
+}
+.rig{
+    float: right;
+    width: 40%;
+    text-align: center;
+    font-size: 15px;  
+}
+#ten1{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+#ten2{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+}
+.button button{
+    border: 0;
+    border-radius: 50px;
+    background-color: black;
+    padding: 20px 70px;
+    margin-top: 20px;
+}
+#shop{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+#logo-1{
+    width: 300px;
+}
+.space{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    clear: both;
+}
+
+
+@media only screen and (max-width: 750px){
+    .menu{
+        display: none;
+    }
+  }
+@media only screen and (max-width: 950px){
+    .content, .rig{
+        float: none;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .anh-1{
+        width: 100vw;
+
+    }
+    .rig{
+        float: none;
+        margin: 0 auto;
+    }
+    #logo-1{
+        width: 200px;
+        margin-top: -50px;
+    }
+}
+
+#cl{
+    
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.image{
+    height: 450px;
+}
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+article .list .list-1{
+    
+    float: left;
+    margin-right: 1vw;
+    margin-left: 2vw;
+    
+}
+article .list .list-1 p{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 5px;
+    font-size: 18px;
+}
+article .list .list-1 h1{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.content2{
+    width: 100vw;
+    margin-top: 50px;
+    height: calc(100vw * 0.4) ;
+   
+
+}
+.anh2{
+    width: 60%;
+    float: right;
+    height: 100%;
+    
+}
+.anh-2{
+    width: 100%;
+    height: 100%;
+}
+.lef{
+    float: left;
+    width: 40%;
+    text-align: center;
+    font-size: 15px;
+    background-color: #40A1D0;
+    height: 100%;
+    position: relative;
+    align-content: center;
+}
+.lef-item{
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#ten3{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+#ten4{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+.content2 button{
+    border: 0;
+    border-radius: 50px;
+    background-color: white;
+    padding: 15px 55px;
+    margin-top: 20px;
+}
+#shop2{
+    color: #40A1D0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+#logo-2{
+    width: 150px; 
+}
+#cl2{
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.list{
+    width: 100%;
+}
+
+article .list2 .list-2 #giay-2{
+    width: 100%;
+}
+article .list2 .list-2{
+    width: 30%;
+    float: left;
+    margin-right: 1vw;
+    margin-left: 2vw;
+    
+}
+article .list2 .list-2 p{
+    font-family: 'Quicksand', sans-serif;
+}
+article .list2 .list-2 h1{
+    font-family: 'Quicksand', sans-serif;
+}
+.sakai{
+    width: 100vw;
+    display: flex;
+    
+}
+.sakai img{
+    height: 100%;
+    margin-top: 20vh;
+}
+.sakai-bot{
+    width: 100vw;
+    background-color: #3B256A;
+    padding: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+.sakai-bot h1{
+    font-weight: bold;
+    font-family: Futura Condensed Extra;
+    color: white;
+}
+#cl3{
+    
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    padding-top: 20vh;
+    padding-left: 45px;
+    font-size: 25px;
+    padding-bottom: 10vh;
+}
+.list-3{
+    width: 45vw;
+    position: relative;
+}
+article .list3 .list-3 img{
+    width: 100%;
+    height: calc(100vw * 0.4 ); 
+}
+article .list3 .list-3 .but{
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    padding: 10px 40px;
+}
+.but p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+.list-3{
+    float: left;
+    margin-left: 3vw;
+    margin-right: 0vw;
+}
+.but{
+    border: 0;
+    border-radius: 50px;
+    background-color: white;
+    padding: 15px 55px;
+    margin-top: 20px;
+}
+.anh-foot{
+    width: 100vw;
+    margin-top: 30vh;
+    display: flex
+}
+.footer-content{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    float: left;
+    padding: 80px 80px 0;
+}
+.footer-if{
+    width: 100%;
+    height: 320px;
+}
+.text-foot{
+    font-size: 1rem;
+    float: left;
+    width: 30%;
+}
+#main{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+#main2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: red;
+}
+#main2 span{
+    color: white;
+}
+.text-foot2{
+    font-size: 1rem;
+    float: left;
+    width: 40%;
+    
+}
+html{
+    font-size: 14px;
+}
+.footer-content li{
+    line-height: 30px;
+    
+}
+.footer-content ul{
+    color: #D6D3D3;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.text-foot3{
+    float: right;
+}
+.text-foot3 h3{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.social-icon .fab{
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.last-foot{
+    width: 100%;
+    height: 70px;
+    border-top: 0.3px solid #D6D3D3; 
+    bottom: 0;
+}
+.last-foot h3{
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    line-height: 70px;
+    font-weight: lighter;
+}
+
+
+
+
+.sub-menu{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    padding: 30px 150px 30px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.sub-menu .col{
+    margin-top: -50px;
+    opacity: 0;
+}
+.menu .sub li{
+    padding: 0;
+    clear: both;
+    margin-top: -40px;
+}
+.menu .sub li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: #8F8F8F;
+}
+.col{
+    float: left;
+    margin-right: 60px;
+    width: 20%;
+}
+.col p{
+    font-weight: bold;
+    font-size: 18px;
+    color: #8F8F8F;
+    margin-top: -40px;
+}
+.menu>ul>li:hover .sub-menu{
+    opacity: 1;
+    z-index: 5;
+    margin-top: 0px;
+    transition: all 0.3s ease;
+    visibility: visible;
+    
+
+}
+.menu>ul>li:hover .sub-menu .col{
+    opacity: 1;
+    margin-top: 0px;
+    transition: all 1s ease;
+    visibility: visible;
+    
+}
+.menu .sub li:hover a{
+    color: #000;
+}
+.menu>ul.main-menu>li>a{
+    position: relative;
+}
+.menu>ul.main-menu>li>a::before{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    display: none;
+}
+.menu>ul.main-menu>li:hover>a::before{
+    display: block;
+}
+.slick-prev{
+    background-color: #E5E5E5;
+    position: absolute;
+    top: -18%;
+    right: 0;
+    border: none;
+    z-index: 1;
+    padding: 10px 18px;
+    border-radius: 50%;
+    margin-right: 120px;
+}
+.slick-next{
+    background-color: #E5E5E5;
+    position: absolute;
+    top: -18%;
+    padding: 10px 20px;
+    border: none;
+    z-index: 1;
+    right: 0;
+    margin-right: 50px;
+    padding: 10px 18px;
+    border-radius: 50%;
+}
+.slick-prev i{
+    font-size: 30px;
+}
+.slick-next i{
+    font-size: 30px;
+}
+.slideshow .slick-prev{
+    opacity: 0;
+}
+.slideshow .slick-next{
+    opacity: 0;
+}
+
+
+
+
+

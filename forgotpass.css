@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    color: #000;
+}
+.image img{
+    width: 40%;
+    height: 100vh;
+    float: left;
+}
+.signin{
+    text-align: center;
+    float: right;
+    width: 60%;
+    
+    justify-content: center;
+}
+.logo img{
+    margin-top: 50px;
+    width: 125px;
+}
+.logo p{
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input{
+    padding: 20px;
+    width: 484px;
+    height: 63px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.forgot{
+    width: 484px;
+    display: inline-block;
+}
+.forgot h3{
+    float: left;
+    margin-top: 40px;
+    font-weight: lighter;
+}
+.forgot a{
+    float: right;
+}
+button{
+    width: 484px;
+    height: 63px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.not{
+    width: 240px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.not h3{
+    float: left;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #787878;
+}
+.not h4{
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.back{
+    width: 240px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.back h3{
+    float: left;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #787878;
+}
+.back h4{
+    
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.bg_sub{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity linear 0.2s;
+}
+
+.sub-page{
+    width: 400px;
+    height: 390px;
+    background-color: white;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+.sub-logo img{
+    width: 70px;
+    margin-top: 15px;
+}
+.sub-logo p{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.sub-logo h3{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.sub-button button{
+    width: 320px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.sub-button2 button{
+    margin-top: 20px;
+    width: 320px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    
+}
+.bg_sub:target{
+    visibility: visible;
+    opacity: 1;
+
+}

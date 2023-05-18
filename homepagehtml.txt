@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a10793a3e3.js"></script>
+</head>
+<body>
+    <div class="top-header">
+        <div class="text-top1">
+            <a href="signin.html">
+                <h3>Sign in</h3>
+            </a>
+        </div>
+        <div class="text-top">
+            <h3>Membership</h3>
+        </div>
+        <div class="text-top">
+            <h3>Help</h3>
+        </div>
+    </div>
+    <header class="container">
+        <div class="logo">
+            <a href="page1.html">
+                <img src="image/logo-01.png" alt="">
+            </a>
+        </div>
+        <nav class="menu">
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Special</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+        </nav>
+        <div class="rightheader">
+            <div class="search">
+                    <input type="search" placeholder="Search">
+                    <i class="fas fa-search"></i>
+            </div>
+            <div class="heart">
+                <i class="far fa-heart"></i>
+            </div>
+            <div class="bag">
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+        </div>
+            
+    </header>
+    <div class="sale">
+        <h1>Sale up to 40%</h1>
+        <p>shop all the items.</p>
+        <p id="dt">View Details</p>
+    </div>
+    <div class="content">
+        <div class="show">
+            <div class="list-image">
+                <img src="image/list-image1.jfif" class="imageshow">
+            </div>
+            <div class="list-image">
+                <img src="image/list-image2.jfif" class="imageshow">
+            </div>
+            <div class="list-image">
+                <img src="image/list-image3.jfif" class="imageshow">
+            </div>
+            <div class="list-image">
+                <img src="image/list-image4.png" class="imageshow">
+            </div>
+            <div class="list-image">
+                <img src="image/list-image5.png" class="imageshow">
+            </div>
+            <div class="list-image">
+                <img src="image/list-image6.png" class="imageshow">
+            </div>
+            <div class="list-image">
+                <img src="image/list-image7.png" class="imageshow">
+            </div>
+            <div class="list-image">
+                <img src="image/list-image8.png" class="imageshow">
+            </div>
+        </div>
+        <div class="inforshoes">
+            <div class="infor">
+                <h1>Nike Blazer Low ‘77</h1>
+                <h2>Men’s shoe</h2>
+                <h3>160$</h3>
+            </div>
+            <div class="option">
+                <img src="image/option1.jfif" class="imageoption">
+                <img src="image/option2.jfif" class="imageoption">
+            </div>
+            <div class="select-size">
+                <h1>Select size</h1>
+                <div class="size-option">
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 35.5</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 36</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 36.5</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 37</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 38</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 39</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 40</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 40.5</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 41</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 41.5</label>
+                    </div>
+                    <div class="list-size">
+                        <label for="#" class="sizeshow">US 42</label>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="button">
+                <button class="add">
+                    <p>Add to bag</p>
+                </button>
+            </div>
+            <div class="button2">
+                <button class="favor">
+                    <p>Favourite</p>
+                </button>
+            </div>
+            <div class="descrip">
+                <p>Praised by the streets for its classic simplicity and comfort, the Nike Blazer Low '77 returns with its low-profile, classic hoops style. Featuring crisp leather, a retro Swoosh design and super-soft, low-cut collar, it's a must-have wardrobe staple.</p>
+            </div>
+            <div class="review">
+                <p>Reviews (10)</p>               
+                <i class="fas fa-chevron-down"></i>               
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <div>
+        <h1 id="cl">YOU MIGHT ALSO LIKE</h1>
+    </div>
+    
+    <article>
+        
+        <div class="list">
+            <div class="list-1">
+                <a href="#">
+                    <img id="giay-1" src="image/blazer-low-77-shoe-jx4bjz.jfif" alt="">
+                </a>
+                <h1>Nike Blazer Low 77'</h1>
+                <p>Men's shoe</p>
+            </div>
+            <div class="list-1">
+                <a href="#">
+                    <img id="giay-1" src="image/sb-zoom-blazer-low-pro-gt-skate-shoe-ckWK6g.jfif" alt="">
+                </a>
+                <h1>Nike Blazer Low Pro GT</h1>
+                <p>Men's shoe</p>
+            </div>
+            <div class="list-1">
+                <a href="#">
+                    <img id="giay-1" src="image/sb-zoom-blazer-mid-skate-shoe-bdtQ2K.jfif" alt="">
+                </a>
+                <h1>Nike SB Zoom Mid Vintage</h1>
+                <p>Men's shoe</p>
+            </div>
+            
+            
+        </div>
+    </article>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-if">
+                <div>
+                    <ul class="text-foot">
+                        <li id="main">Support</li>
+                        <li>Oder Status</li>
+                        <li>Delivery</li>
+                        <li>Return Policy</li>
+                        <li>FAQs</li>
+                        <li>Store Location</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-foot2">
+                        <li id="main2">
+                            <span>About</span> Poseidon
+                        </li>
+                        <li>Information</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="text-foot3">
+                    <h3>Follow Us</h3>
+                    <div class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="last-foot">
+                <h3>© POSEIDON SE, 2021. All Rights Reserved.</h3>
+            </div>
+        </div>               
+    </footer>
+</body>
+</html>

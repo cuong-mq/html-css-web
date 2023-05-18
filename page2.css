@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    color: #000;
+}
+.top-header{
+    width: 100vw;
+    height: 38px;
+    background-color: #F3F3F3;
+    padding: 0 38px;
+}
+.text-top{
+    float: right;
+    margin-right: 10px;
+    justify-content: space-between;
+    border-right: 2px solid black;
+    height: 16px;
+    padding-right: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.text-top1{
+    float: right;
+    margin-right: 10px;
+    justify-content: space-between;
+    height: 16px;
+    padding-right: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.text-top h3{
+    font-weight: 700;
+    font-size: 15px;
+}
+.text-top1 h3{
+    font-weight: 700;
+    font-size: 15px;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    padding: 0 40px;
+    font-size: 18px;
+}
+header img{
+    width: 42px;
+    padding-top: 5px;
+    margin-left: 3%;
+    float: left;
+}
+.menu{
+    margin-left: 100px;
+}
+ nav ul li{
+    float: left;
+    line-height: 70px;
+    padding: 0 35px;
+}
+ .menu ul li a{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1em; 
+}
+.search input{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    padding: 10px 10px;
+    border-style: none;
+    outline: 0;
+    background: transparent;
+    width: 150px;
+}
+.rightheader{
+    display: flex;
+    
+    align-items: center;
+}
+.heart i{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.bag i{
+    font-size: 25px;
+}
+.search{
+    flex-direction: row;
+    padding: 3px 30px;
+    border-radius: 25px;
+    background-color: #F3F3F3;
+}
+.search .fas{
+    font-size: 20px;
+}
+.sale{
+    width: 100vw;
+    height: 80px;
+    background-color:#F3F3F3 ;
+}
+.sale h1{
+    text-align: center;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+.sale{
+    text-align: center;
+}
+.sale p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 10px;
+    display: inline-block;
+}
+#dt{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 10px;
+    margin-left: 0px;
+    font-weight:600;
+}
+.content{
+    padding: 60px 80px 0;
+}
+.show{
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    float: left;
+}
+.list-image .imageshow{
+    width: 100%;
+}
+.inforshoes{
+    
+    width: 32%;
+    float: right;
+}
+.infor{
+    height: 130px;
+}
+.infor h2{
+    font-weight: lighter;
+}
+.infor h3{
+    margin-top: 30px;
+    text-decoration-line: underline;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.option{
+    height: 100px;
+    padding-top: 10px;
+}
+.option .imageoption{
+    height: 100px;
+    width: 90px;
+    border-radius: 8px;
+    border: 0.5px solid #ADADAD;
+    margin-right: 25px;
+}
+.select-size{
+    margin-top: 60px;
+}
+.select-size h1{
+    font-weight: 500;
+    font-size: 25px;
+}
+.size-option{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 10px;
+}
+.list-size .sizeshow{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.button .add{
+    width: 100%;
+    padding: 18px 24px;
+    border-radius: 30px;
+    background-color: black;
+    margin-top: 80px;
+}
+.add p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button2 .favor{
+    width: 100%;
+    padding: 18px 24px;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 20px;
+}
+.favor p{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.descrip{
+    margin-top: 50px;
+}
+.descrip p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.review{
+    margin-top: 200px;
+    padding: 30px 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    align-items: center; 
+    width: 100%;
+}
+.review p{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+.review i{
+    float: right;
+    margin-top: 5px;
+}
+#cl{
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 150px;
+    padding-left: 80px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.list{
+    width: 100%;
+}
+
+article .list .list-1 #giay-1{
+    width: 100%;
+}
+article .list .list-1{
+    width: 30%;
+    float: left;
+    margin-right: 1vw;
+    margin-left: 2vw;
+    
+}
+article .list .list-1 p{
+    font-family: 'Quicksand', sans-serif;
+}
+article .list .list-1 h1{
+    font-family: 'Quicksand', sans-serif;
+}
+.footer-content{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    float: left;
+    padding: 80px 80px 0;
+    margin-top: 100px;
+}
+.footer-if{
+    width: 100%;
+    height: 320px;
+}
+.text-foot{
+    font-size: 1rem;
+    float: left;
+    width: 30%;
+}
+#main{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+#main2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: red;
+}
+#main2 span{
+    color: white;
+}
+.text-foot2{
+    font-size: 1rem;
+    float: left;
+    width: 40%;
+    
+}
+html{
+    font-size: 14px;
+}
+.footer-content li{
+    line-height: 30px;
+    
+}
+.footer-content ul{
+    color: #D6D3D3;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.text-foot3{
+    float: right;
+}
+.text-foot3 h3{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.social-icon .fab{
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.last-foot{
+    width: 100%;
+    height: 70px;
+    border-top: 0.3px solid #D6D3D3; 
+    bottom: 0;
+}
+.last-foot h3{
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    line-height: 70px;
+    font-weight: lighter;
+}
